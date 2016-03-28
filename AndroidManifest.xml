@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cc.cinnamon.android.adepto"
+          android:versionCode="1"
+          android:versionName="0.1.0"
+          android:installLocation="preferExternal">
+
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21"/>
+
+  <application>
+    <activity android:name=".activities.AdeptoActivity" android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+
+  <!--<permission android:name=""/>-->
+
+</manifest>
